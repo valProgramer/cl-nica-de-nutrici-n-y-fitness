@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #00b91f;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    background-color: #00790a;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 10px 20px;
+}
+nav a:hover {
+    background-color: #0d4d007e;
+}
+section {
+    padding: 20px;
+    text-align: justify;
+    background-color: white;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.wrapper {
+    overflow-x: auto;
+    overflow-wrap: normal;
+}
+
+footer {
+    background-color: #194e0083;
+    color: white;
+    padding: 10px;
+    position: static;
+    bottom: 0;
+    width: 100%;
+}
+
+form label {
+    display: block;
+    margin-top: 10px;
+}
+
+form input {
+    width: 100%;
+    padding: 0.5em;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 0.5em 1em;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #45a049;
+}
+
+.consejos {
+    text-align: left;
+    margin: 0 auto;
+}
+.consejos ul {
+    list-style-type:decimal;
+    padding-left: 20px;
+    text-align: left;
+}
+.consejos ul li {
+    margin-bottom: 10px;
+    text-align: left;
+}
+footer {
+    background-color: #1f4e00;
+    color: white;
+    padding: 10px;
+    position:static;
+    bottom: 0;
+    width: 100%;
+}
